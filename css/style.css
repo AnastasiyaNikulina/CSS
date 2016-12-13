@@ -1,0 +1,36 @@
+.class1 {
+	width: 100px;
+	height: 100px;
+	background: #E57319;
+	box-shadow: 4px 4px 5px -2px #123; /*тень */
+}
+
+.otec {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	border: 3px solid #124346;
+}
+
+.first {
+	/*position: static; /* позиция */
+	
+	position: relative; /* относительное позиционирование*/
+	left: 50px; /* сместили относительно начального элемнта на 50 пикселей */
+	top: 30px; /* от верхней части*/
+	/*bottom, right /* снизу и справа*/
+}
+
+.second {
+	position: absolute; /* место, занимаемое элементом, исчезнет*/
+	right: 30px; /* сместили относительно края браузера*/
+	bottom: 350px;
+
+}
+
+.third {
+	position: fixed;
+	/* top,left,rigth, bottom*/
+
+}
